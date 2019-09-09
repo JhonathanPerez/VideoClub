@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<resource xmlns="http://www.wxwindows.org/wxxrc" version="2.3.0.1">
+	<object class="wxFrame" name="Login_Frame">
+		<style>wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL</style>
+		<size>444,385</size>
+		<bg>#ffffff</bg>
+		<title>Login</title>
+		<centered>1</centered>
+		<aui_managed>0</aui_managed>
+		<object class="wxPanel" name="Login_Panel">
+			<style>wxTAB_TRAVERSAL</style>
+			<object class="wxBoxSizer">
+				<orient>wxVERTICAL</orient>
+				<object class="sizeritem">
+					<option>0</option>
+					<flag>wxALL|wxALIGN_CENTER_HORIZONTAL</flag>
+					<border>5</border>
+					<object class="wxStaticBitmap" name="m_bitmap1">
+						<bitmap>System_Images/logo.png</bitmap>
+					</object>
+				</object>
+				<object class="sizeritem">
+					<option>0</option>
+					<flag>wxALIGN_CENTER_HORIZONTAL</flag>
+					<border>5</border>
+					<object class="wxBoxSizer">
+						<orient>wxHORIZONTAL</orient>
+						<object class="sizeritem">
+							<option>0</option>
+							<flag>wxALL</flag>
+							<border>5</border>
+							<object class="wxStaticText" name="m_staticText1">
+								<font>
+									<size>12</size>
+									<family>swiss</family>
+									<style>normal</style>
+									<weight>normal</weight>
+									<underlined>0</underlined>
+									<face>Candara</face>
+								</font>
+								<label>Usuario        </label>
+								<wrap>-1</wrap>
+							</object>
+						</object>
+						<object class="sizeritem">
+							<option>0</option>
+							<flag>wxALL</flag>
+							<border>5</border>
+							<object class="wxTextCtrl" name="Textctrl_Usuario">
+								<tooltip>Ingrese su nombre de usuario</tooltip>
+								<value></value>
+								<maxlength>10</maxlength>
+							</object>
+						</object>
+					</object>
+				</object>
+				<object class="sizeritem">
+					<option>0</option>
+					<flag>wxALIGN_CENTER_HORIZONTAL</flag>
+					<border>5</border>
+					<object class="wxBoxSizer">
+						<orient>wxHORIZONTAL</orient>
+						<object class="sizeritem">
+							<option>0</option>
+							<flag>wxALL</flag>
+							<border>5</border>
+							<object class="wxStaticText" name="m_staticText11">
+								<font>
+									<size>12</size>
+									<family>swiss</family>
+									<style>normal</style>
+									<weight>normal</weight>
+									<underlined>0</underlined>
+									<face>Candara</face>
+								</font>
+								<label>Contraseña</label>
+								<wrap>-1</wrap>
+							</object>
+						</object>
+						<object class="sizeritem">
+							<option>0</option>
+							<flag>wxALL</flag>
+							<border>5</border>
+							<object class="wxTextCtrl" name="Textctrl_Contrasena">
+								<style>wxTE_PASSWORD</style>
+								<tooltip>Ingrese su contraseña</tooltip>
+								<value></value>
+							</object>
+						</object>
+					</object>
+				</object>
+				<object class="sizeritem">
+					<option>1</option>
+					<flag>wxALIGN_CENTER_HORIZONTAL</flag>
+					<border>5</border>
+					<object class="wxStdDialogButtonSizer">
+						<object class="button">
+							<flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+							<border>5</border>
+							<object class="wxButton" name="wxID_OK">
+								<label>&amp;Ingresar</label>
+								<default>1</default>
+							</object>
+						</object>
+						<object class="button">
+							<flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+							<border>5</border>
+							<object class="wxButton" name="wxID_CANCEL">
+								<label>&amp;Crear Cuenta</label>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</resource>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<resource xmlns="http://www.wxwindows.org/wxxrc" version="2.3.0.1">
+	<object class="wxFrame" name="Menu_Principal_Admin">
+		<style>wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL</style>
+		<size>500,495</size>
+		<bg>#ffffff</bg>
+		<title>Menu Principal</title>
+		<centered>1</centered>
+		<aui_managed>0</aui_managed>
+		<object class="wxPanel" name="Panel_Menu_Principal_Admin">
+			<style>wxTAB_TRAVERSAL</style>
+			<object class="wxBoxSizer">
+				<orient>wxVERTICAL</orient>
+				<object class="sizeritem">
+					<option>0</option>
+					<flag>wxALL|wxALIGN_CENTER_HORIZONTAL</flag>
+					<border>1</border>
+					<object class="wxStaticBitmap" name="m_bitmap3">
+						<bitmap>System_Images/logo.png</bitmap>
+					</object>
+				</object>
+				<object class="sizeritem">
+					<option>0</option>
+					<flag>wxALL|wxALIGN_CENTER_HORIZONTAL</flag>
+					<border>20</border>
+					<object class="wxStaticText" name="m_staticText9">
+						<font>
+							<size>12</size>
+							<family>swiss</family>
+							<style>normal</style>
+							<weight>bold</weight>
+							<underlined>0</underlined>
+							<face>Candara</face>
+						</font>
+						<label>Selecciona Una Opción</label>
+						<wrap>-1</wrap>
+					</object>
+				</object>
+				<object class="sizeritem">
+					<option>0</option>
+					<flag>wxALIGN_CENTER_HORIZONTAL</flag>
+					<border>5</border>
+					<object class="wxBoxSizer">
+						<orient>wxVERTICAL</orient>
+						<object class="sizeritem">
+							<option>0</option>
+							<flag>wxALIGN_CENTER_HORIZONTAL</flag>
+							<border>5</border>
+							<object class="wxBoxSizer">
+								<orient>wxHORIZONTAL</orient>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALL</flag>
+									<border>5</border>
+									<object class="wxBitmapButton" name="Button_Administradores">
+										<style>wxBU_AUTODRAW</style>
+										<tooltip>Administradores</tooltip>
+										<bitmap>System_Images/admin.png</bitmap>
+										<default>0</default>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALL</flag>
+									<border>5</border>
+									<object class="wxBitmapButton" name="Button_Usuarios">
+										<style>wxBU_AUTODRAW</style>
+										<tooltip>Usuarios</tooltip>
+										<bitmap>System_Images/users.png</bitmap>
+										<default>0</default>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALL</flag>
+									<border>5</border>
+									<object class="wxBitmapButton" name="Button_Series">
+										<style>wxBU_AUTODRAW</style>
+										<tooltip>Series</tooltip>
+										<bitmap>System_Images/films.png</bitmap>
+										<default>0</default>
+									</object>
+								</object>
+							</object>
+						</object>
+						<object class="sizeritem">
+							<option>1</option>
+							<flag>wxEXPAND</flag>
+							<border>5</border>
+							<object class="wxBoxSizer">
+								<orient>wxHORIZONTAL</orient>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALL</flag>
+									<border>5</border>
+									<object class="wxBitmapButton" name="Button_Juegos">
+										<style>wxBU_AUTODRAW</style>
+										<tooltip>Juegos</tooltip>
+										<bitmap>System_Images/games.png</bitmap>
+										<default>0</default>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALL|wxALIGN_CENTER_HORIZONTAL</flag>
+									<border>5</border>
+									<object class="wxBitmapButton" name="Button_Reservas">
+										<style>wxBU_AUTODRAW</style>
+										<tooltip>Reservas</tooltip>
+										<bitmap>System_Images/payments.png</bitmap>
+										<default>0</default>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALL</flag>
+									<border>5</border>
+									<object class="wxBitmapButton" name="Button_Salir">
+										<style>wxBU_AUTODRAW</style>
+										<tooltip>Cerrar Sesión</tooltip>
+										<bitmap>System_Images/salir.png</bitmap>
+										<default>0</default>
+									</object>
+								</object>
+							</object>
+						</object>
+						<object class="sizeritem">
+							<option>0</option>
+							<flag>wxALIGN_CENTER_HORIZONTAL</flag>
+							<border>5</border>
+							<object class="wxBoxSizer">
+								<orient>wxHORIZONTAL</orient>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALL</flag>
+									<border>5</border>
+									<object class="wxStaticText" name="m_staticText10">
+										<font>
+											<size>12</size>
+											<family>swiss</family>
+											<style>normal</style>
+											<weight>normal</weight>
+											<underlined>0</underlined>
+											<face>Candara</face>
+										</font>
+										<label>Logged As: </label>
+										<wrap>-1</wrap>
+									</object>
+								</object>
+								<object class="sizeritem">
+									<option>0</option>
+									<flag>wxALL</flag>
+									<border>5</border>
+									<object class="wxStaticText" name="Static_Text_Administrador">
+										<font>
+											<size>12</size>
+											<family>swiss</family>
+											<style>normal</style>
+											<weight>normal</weight>
+											<underlined>0</underlined>
+											<face>Candara</face>
+										</font>
+										<label>Label Administrador</label>
+										<wrap>-1</wrap>
+									</object>
+								</object>
+							</object>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</resource>
